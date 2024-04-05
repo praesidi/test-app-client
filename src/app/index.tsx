@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Home } from '../pages/home';
-import './index.css';
+import { Providers } from './providers';
+import '@radix-ui/themes/styles.css';
+import '@/app/styles/global.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
-		<Home />
+		<Providers />
 	</React.StrictMode>
 );
